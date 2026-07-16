@@ -4,7 +4,7 @@ public class MakeBounceable : MonoBehaviour
 {
     public GameObject bounceablePrefab;
 
-    public int numberOfBounceables = 10;
+    public int numberOfBounceables = 1;
 
 
 
