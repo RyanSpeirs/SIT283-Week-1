@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
         if (jobDoneText != null) jobDoneText.gameObject.SetActive(false);
     }
 
-    // Wire each ItemBin's OnCountChanged to this method in the Inspector
+    // This updates the bilboard display 
     public void UpdateCount(ItemType type, int count)
     {
         switch (type)
@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // Wire each ItemBin's OnBinFull to this method in the Inspector
+    // When all 3 bins are full, displays Job Done message
     public void NotifyBinFull(ItemType type)
     {
         switch (type)

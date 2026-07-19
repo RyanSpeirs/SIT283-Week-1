@@ -30,6 +30,7 @@ public class ItemSpawner : MonoBehaviour
         if (autoStart) StartSpawning();
     }
 
+
     public void StartSpawning()
     {
         if (isSpawning) return;
@@ -43,7 +44,7 @@ public class ItemSpawner : MonoBehaviour
         StopAllCoroutines();
     }
 
-    // Wire ItemBin's OnBinFull to this in the Inspector
+    // Triggered by ItemBin's OnBinFull to stop spawning, in theory
     public void ForceStopType(ItemType type)
     {
         Debug.Log($"ForceStopType called for {type}");
@@ -66,7 +67,7 @@ public class ItemSpawner : MonoBehaviour
                 isSpawning = false;
                 yield break;
             }
-
+            // Randomly selects from the 3 different items
             ItemTypeConfig chosen = available[Random.Range(0, available.Count)];
             SpawnItem(chosen);
 
