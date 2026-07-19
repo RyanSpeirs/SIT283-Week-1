@@ -23,7 +23,7 @@ public class MakeBounceable : MonoBehaviour
         float z = 0.08f;
 
 
-        collision.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(x,y,z) * 5, ForceMode.Impulse);
+        collision.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(x,y,z) * 4, ForceMode.Impulse);
     }
 
 }

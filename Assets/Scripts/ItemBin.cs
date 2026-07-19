@@ -13,24 +13,36 @@ public class ItemBin : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
         Item item = other.GetComponent<Item>();
-        if (item == null) return; // we only care about Items
-
-        if (item.type != acceptedItem) // wrong items get destroyed
+        if (item == null)
         {
+            Debug.Log($"[ItemBin] Ignored non-item: {other.gameObject.name}");
+            return;
+        }
+
+        if (item.type != acceptedItem)
+        {
+            Debug.Log($"[ItemBin] Wrong type ({item.type}, expected {acceptedItem}) — destroying");
             Destroy(other.gameObject);
             return;
         }
 
-        if (currentCount >= capacity) return; // If bin is full, stop accepting items
+        if (currentCount >= capacity)
+        {
+            Debug.Log($"[ItemBin] Correct type but bin already full ({currentCount}/{capacity})");
+            return;
+        }
 
         currentCount++;
+        Debug.Log($"[ItemBin] Counted! {acceptedItem} now at {currentCount}/{capacity}");
         OnCountChanged?.Invoke(acceptedItem, currentCount);
         Destroy(other.gameObject);
 
-        if (currentCount >= capacity)  //  tells the spawner and UI the bin is full
+        if (currentCount >= capacity)
+        {
+            Debug.Log($"[ItemBin] {acceptedItem} bin full — invoking OnBinFull");
             OnBinFull?.Invoke(acceptedItem);
+        }
     }
 }
 

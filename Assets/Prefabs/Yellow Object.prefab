@@ -308,4 +308,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Item
   type: 2
-  despawnTime: 20
+  despawnTime: 60

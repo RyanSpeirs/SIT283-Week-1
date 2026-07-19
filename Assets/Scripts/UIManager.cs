@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
 {
@@ -24,13 +23,13 @@ public class UIManager : MonoBehaviour
         switch (type)
         {
             case ItemType.CyanCube:
-                if (cyanCounter != null) cyanCounter.text = $"Cyan: {count}/10";
+                if (cyanCounter != null) cyanCounter.text = $"Cyan: {count}/5";
                 break;
             case ItemType.Magenta:
-                if (magentaCounter != null) magentaCounter.text = $"Magenta: {count}/10";
+                if (magentaCounter != null) magentaCounter.text = $"Magenta: {count}/5";
                 break;
             case ItemType.Yellow:
-                if (yellowCounter != null) yellowCounter.text = $"Yellow: {count}/10";
+                if (yellowCounter != null) yellowCounter.text = $"Yellow: {count}/5";
                 break;
         }
     }

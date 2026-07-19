@@ -10,9 +10,8 @@ public class ItemSpawner : MonoBehaviour
     {
         public ItemType type;
         public GameObject prefab;
-        public int targetCount = 10;
 
-        [HideInInspector] public int spawnedCount = 0;
+        public bool stopped = false;
     }
 
     [Header("Item Types")]
@@ -47,10 +46,11 @@ public class ItemSpawner : MonoBehaviour
     // Wire ItemBin's OnBinFull to this in the Inspector
     public void ForceStopType(ItemType type)
     {
+        Debug.Log($"ForceStopType called for {type}");
         foreach (var t in itemTypes)
         {
             if (t.type == type)
-                t.spawnedCount = t.targetCount;
+                t.stopped = true;
         }
     }
 
@@ -62,7 +62,7 @@ public class ItemSpawner : MonoBehaviour
 
             if (available.Count == 0)
             {
-                Debug.Log("[ItemSpawner] All item type targets reached. Stopping spawner.");
+                Debug.Log("[ItemSpawner] All item types stopped. Stopping spawner.");
                 isSpawning = false;
                 yield break;
             }
@@ -79,7 +79,8 @@ public class ItemSpawner : MonoBehaviour
         List<ItemTypeConfig> result = new List<ItemTypeConfig>();
         foreach (var type in itemTypes)
         {
-            if (type.prefab != null && type.spawnedCount < type.targetCount)
+            Debug.Log($"[Check] {type.type}: stopped={type.stopped}");
+            if (type.prefab != null && !type.stopped)
                 result.Add(type);
         }
         return result;
@@ -90,9 +91,8 @@ public class ItemSpawner : MonoBehaviour
         GameObject obj = Instantiate(type.prefab, spawnPoint.position, spawnPoint.rotation);
 
         Item item = obj.GetComponent<Item>();
-        if (item != null) item.type = type.type; // safety net, matches prefab setup
+        if (item != null) item.type = type.type;
 
-        type.spawnedCount++;
-        Debug.Log($"[ItemSpawner] Spawned {type.type} ({type.spawnedCount}/{type.targetCount})");
+        Debug.Log($"[ItemSpawner] Spawned {type.type}");
     }
 }
