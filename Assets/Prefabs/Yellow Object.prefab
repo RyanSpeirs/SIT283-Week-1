@@ -84,6 +84,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7884bc67ecdc08459fba4fa148c2ac9, type: 3}
       insertIndex: -1
       addedObject: {fileID: -4529299023992398877}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7884bc67ecdc08459fba4fa148c2ac9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6779636419719811592}
   m_SourcePrefab: {fileID: 100100000, guid: c7884bc67ecdc08459fba4fa148c2ac9, type: 3}
 --- !u!1 &77548738291997734 stripped
 GameObject:
@@ -152,7 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable
   m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: -4056184901101611282}
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
@@ -291,3 +295,17 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &-6779636419719811592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77548738291997734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a4f60c9ecaf704e848a7a568da176e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  type: 2
+  despawnTime: 20

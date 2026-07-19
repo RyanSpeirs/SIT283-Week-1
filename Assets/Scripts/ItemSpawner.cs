@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// Spawns items randomly from a set of configured types, each with its own
-/// target count. Stops picking a type once it hits its target, and stops
-/// spawning entirely once all types are done.
-
 public class ItemSpawner : MonoBehaviour
 {
     [System.Serializable]
     public class ItemTypeConfig
     {
-        public string typeName = "Item";
+        public ItemType type;
         public GameObject prefab;
         public int targetCount = 10;
 
@@ -31,7 +28,6 @@ public class ItemSpawner : MonoBehaviour
     private void Start()
     {
         if (spawnPoint == null) spawnPoint = transform;
-
         if (autoStart) StartSpawning();
     }
 
@@ -46,6 +42,16 @@ public class ItemSpawner : MonoBehaviour
     {
         isSpawning = false;
         StopAllCoroutines();
+    }
+
+    // Wire ItemBin's OnBinFull to this in the Inspector
+    public void ForceStopType(ItemType type)
+    {
+        foreach (var t in itemTypes)
+        {
+            if (t.type == type)
+                t.spawnedCount = t.targetCount;
+        }
     }
 
     private IEnumerator SpawnRoutine()
@@ -81,8 +87,12 @@ public class ItemSpawner : MonoBehaviour
 
     private void SpawnItem(ItemTypeConfig type)
     {
-        Instantiate(type.prefab, spawnPoint.position, spawnPoint.rotation);
+        GameObject obj = Instantiate(type.prefab, spawnPoint.position, spawnPoint.rotation);
+
+        Item item = obj.GetComponent<Item>();
+        if (item != null) item.type = type.type; // safety net, matches prefab setup
+
         type.spawnedCount++;
-        Debug.Log($"[ItemSpawner] Spawned {type.typeName} ({type.spawnedCount}/{type.targetCount})");
+        Debug.Log($"[ItemSpawner] Spawned {type.type} ({type.spawnedCount}/{type.targetCount})");
     }
 }
