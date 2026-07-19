@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// Spawns items randomly from a set of configured types, each with its own
+/// Spawns items randomly from a set of types
 public class ItemSpawner : MonoBehaviour
 {
     [System.Serializable]

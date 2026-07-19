@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class ItemBin : MonoBehaviour
 {
     [SerializeField] private ItemType acceptedItem;
-    [SerializeField] private int capacity = 10;
+    [SerializeField] private int capacity = 5;
 
     public ItemTypeIntEvent OnCountChanged;
     public ItemTypeEvent OnBinFull;
