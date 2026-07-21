@@ -10,13 +10,15 @@ public class ItemSpawner : MonoBehaviour
     {
         public ItemType type;
         public GameObject prefab;
-
+        //  This caused errors in playmode due to cached data carried over
         public bool stopped = false;
     }
 
+    // Sets the item types
     [Header("Item Types")]
     public ItemTypeConfig[] itemTypes = new ItemTypeConfig[3];
 
+    //  as the header says, lets us adjust the spawn settings
     [Header("Spawn Settings")]
     public Transform spawnPoint;
     public float spawnInterval = 2f;
@@ -30,7 +32,7 @@ public class ItemSpawner : MonoBehaviour
         if (autoStart) StartSpawning();
     }
 
-
+    // Does what it says, starts the item spawning logic
     public void StartSpawning()
     {
         if (isSpawning) return;
@@ -38,13 +40,14 @@ public class ItemSpawner : MonoBehaviour
         StartCoroutine(SpawnRoutine());
     }
 
+    //  Tells our spawner to stop, in theory
     public void StopSpawning()
     {
         isSpawning = false;
         StopAllCoroutines();
     }
 
-    // Triggered by ItemBin's OnBinFull to stop spawning, in theory
+    // Triggered by ItemBin's OnBinFull event to stop spawning an item type, in theory
     public void ForceStopType(ItemType type)
     {
         Debug.Log($"ForceStopType called for {type}");
@@ -55,6 +58,7 @@ public class ItemSpawner : MonoBehaviour
         }
     }
 
+    // The headline method, this will pick from items and spawn them
     private IEnumerator SpawnRoutine()
     {
         while (isSpawning)
@@ -75,6 +79,7 @@ public class ItemSpawner : MonoBehaviour
         }
     }
 
+    // list of items that have been registered with the spawner
     private List<ItemTypeConfig> GetAvailableTypes()
     {
         List<ItemTypeConfig> result = new List<ItemTypeConfig>();
@@ -87,6 +92,7 @@ public class ItemSpawner : MonoBehaviour
         return result;
     }
 
+    //  the purpose spawns items at a designated point.
     private void SpawnItem(ItemTypeConfig type)
     {
         GameObject obj = Instantiate(type.prefab, spawnPoint.position, spawnPoint.rotation);

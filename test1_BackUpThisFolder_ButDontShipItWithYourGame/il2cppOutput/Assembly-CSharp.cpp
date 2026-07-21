@@ -1734,13 +1734,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_Start_mAF304BC26FB5ED4C69F6534266EE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/Item.cs:22>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/Item.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		float L_1 = __this->___despawnTime;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_0, L_1, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/Item.cs:23>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/Item.cs:24>
 		return;
 	}
 }
@@ -1748,7 +1748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item_Start_mAF304BC26FB5ED4C69F6534266EE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Item__ctor_m741D59B05082743C60D2F1149112B571E89CAFAF (Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/Item.cs:17>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/Item.cs:18>
 		__this->___despawnTime = (60.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -1837,13 +1837,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemBin_OnTriggerEnter_m073EC37057FE0481
 	ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* G_B12_0 = NULL;
 	ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* G_B11_0 = NULL;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:16>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:19>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_0 = ___0_other;
 		NullCheck(L_0);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_1;
 		L_1 = Component_GetComponent_TisItem_tFAF77888D49883A321EB596A7D93CB5615D37E95_m8E6E2A53CA2682AD8983B9921D11717FB223A8FD(L_0, Component_GetComponent_TisItem_tFAF77888D49883A321EB596A7D93CB5615D37E95_m8E6E2A53CA2682AD8983B9921D11717FB223A8FD_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:17>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:20>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -1856,7 +1856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemBin_OnTriggerEnter_m073EC37057FE0481
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:19>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:22>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___0_other;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
@@ -1868,13 +1868,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemBin_OnTriggerEnter_m073EC37057FE0481
 		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCAEB6C8B00D6FE09C2C125FBEB11334BC0E3436F, L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:20>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:23>
 		goto IL_0177;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:23>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:27>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_9 = V_0;
 		NullCheck(L_9);
 		int32_t L_10 = L_9->___type;
@@ -1887,7 +1887,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:25>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:29>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_13 = V_0;
 		NullCheck(L_13);
 		int32_t L_14 = L_13->___type;
@@ -1900,20 +1900,20 @@ IL_0034:
 		L_20 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralBAE21348F8A326BB6567C24CF9BD325C15CD0738, L_16, L_19, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_20, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:26>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:30>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_21 = ___0_other;
 		NullCheck(L_21);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22;
 		L_22 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_21, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_22, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:27>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:31>
 		goto IL_0177;
 	}
 
 IL_0081:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:30>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:35>
 		int32_t L_23 = __this->___currentCount;
 		int32_t L_24 = __this->___capacity;
 		V_3 = (bool)((((int32_t)((((int32_t)L_23) < ((int32_t)L_24))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -1924,7 +1924,7 @@ IL_0081:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:32>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:37>
 		int32_t L_26 = __this->___currentCount;
 		int32_t L_27 = L_26;
 		RuntimeObject* L_28 = Box(il2cpp_defaults.int32_class, &L_27);
@@ -1935,16 +1935,16 @@ IL_0081:
 		L_32 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral654A5EC7DE2639BD2282CDDCF207F0DFD6588FB2, L_28, L_31, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_32, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:33>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:38>
 		goto IL_0177;
 	}
 
 IL_00c2:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:36>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:42>
 		int32_t L_33 = __this->___currentCount;
 		__this->___currentCount = ((int32_t)il2cpp_codegen_add(L_33, 1));
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:37>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:43>
 		int32_t L_34 = __this->___acceptedItem;
 		int32_t L_35 = L_34;
 		RuntimeObject* L_36 = Box(ItemType_t6FE5395FE977F1E86E30795996C94D6D2C2C6876_il2cpp_TypeInfo_var, &L_35);
@@ -1958,7 +1958,7 @@ IL_00c2:
 		L_43 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral4B355DE4F41C81ECC8E28886FDBB8388DF499556, L_36, L_39, L_42, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_43, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:38>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:44>
 		ItemTypeIntEvent_tF602749F56B0FB85B60A470F846413D76F5655B3* L_44 = __this->___OnCountChanged;
 		ItemTypeIntEvent_tF602749F56B0FB85B60A470F846413D76F5655B3* L_45 = L_44;
 		if (L_45)
@@ -1982,14 +1982,14 @@ IL_010d:
 
 IL_011f:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:39>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:45>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_48 = ___0_other;
 		NullCheck(L_48);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49;
 		L_49 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_48, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_49, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:41>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:48>
 		int32_t L_50 = __this->___currentCount;
 		int32_t L_51 = __this->___capacity;
 		V_4 = (bool)((((int32_t)((((int32_t)L_50) < ((int32_t)L_51))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -2000,7 +2000,7 @@ IL_011f:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:43>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:50>
 		int32_t L_53 = __this->___acceptedItem;
 		int32_t L_54 = L_53;
 		RuntimeObject* L_55 = Box(ItemType_t6FE5395FE977F1E86E30795996C94D6D2C2C6876_il2cpp_TypeInfo_var, &L_54);
@@ -2008,7 +2008,7 @@ IL_011f:
 		L_56 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9567C5218B8F571EF43D4FE4F26BE726140EAB32, L_55, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_56, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:44>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:51>
 		ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* L_57 = __this->___OnBinFull;
 		ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* L_58 = L_57;
 		if (L_58)
@@ -2035,7 +2035,7 @@ IL_0176:
 
 IL_0177:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:46>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:53>
 		return;
 	}
 }
@@ -2043,9 +2043,9 @@ IL_0177:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemBin__ctor_m250F28B4482AC9DBFCC5CB1144A4D7B992506BFF (ItemBin_tE4E9998FFE139ED55359C57FF0B7A88863AEA36F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:7>
-		__this->___capacity = ((int32_t)10);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:12>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:8>
+		__this->___capacity = 5;
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:14>
 		__this->___currentCount = 0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -2071,7 +2071,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_Start_mD3D52DB917AC33448AFF6
 	bool V_0 = false;
 	bool V_1 = false;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:29>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___spawnPoint;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2084,7 +2084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_Start_mD3D52DB917AC33448AFF6
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:29>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:31>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		__this->___spawnPoint = L_3;
@@ -2093,7 +2093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_Start_mD3D52DB917AC33448AFF6
 
 IL_001d:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:30>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:32>
 		bool L_4 = __this->___autoStart;
 		V_1 = L_4;
 		bool L_5 = V_1;
@@ -2103,13 +2103,13 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:30>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:32>
 		ItemSpawner_StartSpawning_m778739DA3386D6B116CAA76C063368B58BAB65EE(__this, NULL);
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:31>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:33>
 		return;
 	}
 }
@@ -2118,7 +2118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_StartSpawning_m778739DA3386D
 {
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:35>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:38>
 		bool L_0 = __this->___isSpawning;
 		V_0 = L_0;
 		bool L_1 = V_0;
@@ -2128,15 +2128,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_StartSpawning_m778739DA3386D
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:35>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:38>
 		goto IL_0021;
 	}
 
 IL_000d:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:36>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:39>
 		__this->___isSpawning = (bool)1;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:37>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:40>
 		RuntimeObject* L_2;
 		L_2 = ItemSpawner_SpawnRoutine_mB77FBEF7BF18FD67FC31A633F3744D7EE0B220B6(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3;
@@ -2145,7 +2145,7 @@ IL_000d:
 
 IL_0021:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:38>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:41>
 		return;
 	}
 }
@@ -2153,11 +2153,11 @@ IL_0021:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_StopSpawning_m5A264EA4FABC28749ABFFFA3EF169C82B230DE06 (ItemSpawner_t76B78F483FE5BE540AF3AEA8B01D8A4B1469E4D6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:42>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:46>
 		__this->___isSpawning = (bool)0;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:43>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:47>
 		MonoBehaviour_StopAllCoroutines_m872033451D42013A99867D09337490017E9ED318(__this, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:44>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:48>
 		return;
 	}
 }
@@ -2177,7 +2177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_ForceStopType_mA4B67A59DAE5C
 	ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* V_2 = NULL;
 	bool V_3 = false;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:49>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:53>
 		int32_t L_0 = ___0_type;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(ItemType_t6FE5395FE977F1E86E30795996C94D6D2C2C6876_il2cpp_TypeInfo_var, &L_1);
@@ -2185,7 +2185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_ForceStopType_mA4B67A59DAE5C
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral17117E14CAA7FD3302EC4928A07EC705FCE52AEA, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:50>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:54>
 		ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1* L_4 = __this->___itemTypes;
 		V_0 = L_4;
 		V_1 = 0;
@@ -2194,14 +2194,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_ForceStopType_mA4B67A59DAE5C
 
 IL_0023:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:50>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:54>
 		ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1* L_5 = V_0;
 		int32_t L_6 = V_1;
 		NullCheck(L_5);
 		int32_t L_7 = L_6;
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		V_2 = L_8;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:52>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:56>
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_9 = V_2;
 		NullCheck(L_9);
 		int32_t L_10 = L_9->___type;
@@ -2214,7 +2214,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:53>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:57>
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_13 = V_2;
 		NullCheck(L_13);
 		L_13->___stopped = (bool)1;
@@ -2228,7 +2228,7 @@ IL_003c:
 
 IL_0041:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:50>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:54>
 		int32_t L_15 = V_1;
 		ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1* L_16 = V_0;
 		NullCheck(L_16);
@@ -2238,7 +2238,7 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:55>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:59>
 		return;
 	}
 }
@@ -2285,11 +2285,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t3C69E5978620E9B8DF30576187AED5374688B
 	List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* V_5 = NULL;
 	int32_t G_B4_0 = 0;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:79>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:85>
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_0 = (List_1_t3C69E5978620E9B8DF30576187AED5374688B86E*)il2cpp_codegen_object_new(List_1_t3C69E5978620E9B8DF30576187AED5374688B86E_il2cpp_TypeInfo_var);
 		List_1__ctor_m316AC103FB6131552C192950F502E8958B8AF61C(L_0, List_1__ctor_m316AC103FB6131552C192950F502E8958B8AF61C_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:80>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:86>
 		ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1* L_1 = __this->___itemTypes;
 		V_1 = L_1;
 		V_2 = 0;
@@ -2298,14 +2298,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t3C69E5978620E9B8DF30576187AED5374688B
 
 IL_0013:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:80>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:86>
 		ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1* L_2 = V_1;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_3 = L_5;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:82>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:88>
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_6 = V_3;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___type;
@@ -2320,7 +2320,7 @@ IL_0013:
 		L_14 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralC0490ED7EFF6B27EAD66F68CCE807E0A3732D785, L_9, L_13, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:83>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:89>
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_15 = V_3;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = L_15->___prefab;
@@ -2355,7 +2355,7 @@ IL_0058:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:84>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:90>
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_21 = V_0;
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_22 = V_3;
 		NullCheck(L_21);
@@ -2370,7 +2370,7 @@ IL_0066:
 
 IL_006b:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:80>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:86>
 		int32_t L_24 = V_2;
 		ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1* L_25 = V_1;
 		NullCheck(L_25);
@@ -2380,7 +2380,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:86>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:92>
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_26 = V_0;
 		V_5 = L_26;
 		goto IL_0076;
@@ -2388,7 +2388,7 @@ IL_006b:
 
 IL_0076:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:87>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:93>
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_27 = V_5;
 		return L_27;
 	}
@@ -2411,7 +2411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_SpawnItem_m034B62B2EB2A69C72
 	Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* V_1 = NULL;
 	bool V_2 = false;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:91>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:98>
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_0 = ___0_type;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = L_0->___prefab;
@@ -2427,13 +2427,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_SpawnItem_m034B62B2EB2A69C72
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
 		L_6 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_1, L_3, L_5, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:93>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:100>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_0;
 		NullCheck(L_7);
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_8;
 		L_8 = GameObject_GetComponent_TisItem_tFAF77888D49883A321EB596A7D93CB5615D37E95_mBD5FC8B6FD30DD0E1AACB9B22E736084D9442C05(L_7, GameObject_GetComponent_TisItem_tFAF77888D49883A321EB596A7D93CB5615D37E95_mBD5FC8B6FD30DD0E1AACB9B22E736084D9442C05_RuntimeMethod_var);
 		V_1 = L_8;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:94>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:101>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_9 = V_1;
 		bool L_10;
 		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -2445,7 +2445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_SpawnItem_m034B62B2EB2A69C72
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:94>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:101>
 		Item_tFAF77888D49883A321EB596A7D93CB5615D37E95* L_12 = V_1;
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_13 = ___0_type;
 		NullCheck(L_13);
@@ -2456,7 +2456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner_SpawnItem_m034B62B2EB2A69C72
 
 IL_0041:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:96>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:103>
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_15 = ___0_type;
 		NullCheck(L_15);
 		int32_t L_16 = L_15->___type;
@@ -2466,7 +2466,7 @@ IL_0041:
 		L_19 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralC16F4EF999BAFBE80E90A73BA0B1E6704657C15B, L_18, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:97>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:104>
 		return;
 	}
 }
@@ -2480,15 +2480,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemSpawner__ctor_m8E31FC76EA782AD0194DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:18>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:19>
 		ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1* L_0 = (ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1*)(ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1*)SZArrayNew(ItemTypeConfigU5BU5D_t80B8999CD392A34F4AC0B5DB5DF4692450D0EAE1_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___itemTypes = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___itemTypes), (void*)L_0);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:22>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:24>
 		__this->___spawnInterval = (2.0f);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:23>
-		__this->___autoStart = (bool)1;
 		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:25>
+		__this->___autoStart = (bool)1;
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:27>
 		__this->___isSpawning = (bool)0;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -2603,14 +2603,14 @@ IL_001b:
 
 IL_0028:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:61>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:66>
 		ItemSpawner_t76B78F483FE5BE540AF3AEA8B01D8A4B1469E4D6* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_4;
 		L_4 = ItemSpawner_GetAvailableTypes_m6D84C94D46C9B8E6166448FD4AC3412734E1D259(L_3, NULL);
 		__this->___U3CavailableU3E5__1 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CavailableU3E5__1), (void*)L_4);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:63>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:68>
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_5 = __this->___U3CavailableU3E5__1;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -2623,20 +2623,20 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:65>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:70>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral6C12DB71AB563617CFDD9DAF1DA51C921714F550, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:66>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:71>
 		ItemSpawner_t76B78F483FE5BE540AF3AEA8B01D8A4B1469E4D6* L_8 = __this->___U3CU3E4__this;
 		NullCheck(L_8);
 		L_8->___isSpawning = (bool)0;
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:67>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:72>
 		return (bool)0;
 	}
 
 IL_0066:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:70>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:75>
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_9 = __this->___U3CavailableU3E5__1;
 		List_1_t3C69E5978620E9B8DF30576187AED5374688B86E* L_10 = __this->___U3CavailableU3E5__1;
 		NullCheck(L_10);
@@ -2649,12 +2649,12 @@ IL_0066:
 		L_13 = List_1_get_Item_m2AB181BC55C284866DFC208887A852B3E24812D4(L_9, L_12, List_1_get_Item_m2AB181BC55C284866DFC208887A852B3E24812D4_RuntimeMethod_var);
 		__this->___U3CchosenU3E5__2 = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CchosenU3E5__2), (void*)L_13);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:71>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:76>
 		ItemSpawner_t76B78F483FE5BE540AF3AEA8B01D8A4B1469E4D6* L_14 = __this->___U3CU3E4__this;
 		ItemTypeConfig_tF294BEE608364119679789B50DF5480C8CE5E482* L_15 = __this->___U3CchosenU3E5__2;
 		NullCheck(L_14);
 		ItemSpawner_SpawnItem_m034B62B2EB2A69C7250469F4E485E8242D4DFBD6(L_14, L_15, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:73>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:78>
 		ItemSpawner_t76B78F483FE5BE540AF3AEA8B01D8A4B1469E4D6* L_16 = __this->___U3CU3E4__this;
 		NullCheck(L_16);
 		float L_17 = L_16->___spawnInterval;
@@ -2677,7 +2677,7 @@ IL_00b9:
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:59>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:64>
 		ItemSpawner_t76B78F483FE5BE540AF3AEA8B01D8A4B1469E4D6* L_19 = __this->___U3CU3E4__this;
 		NullCheck(L_19);
 		bool L_20 = L_19->___isSpawning;
@@ -2689,7 +2689,7 @@ IL_00cf:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:75>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemSpawner.cs:80>
 		return (bool)0;
 	}
 }
@@ -2744,7 +2744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KillPlane_OnTriggerEnter_m92D87AA2F66580
 	bool V_1 = false;
 	int32_t G_B3_0 = 0;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:11>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:14>
 		String_t* L_0 = __this->___requiredTag;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -2778,13 +2778,13 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:12>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:15>
 		goto IL_0052;
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:14>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:17>
 		bool L_6 = __this->___logDestruction;
 		V_1 = L_6;
 		bool L_7 = V_1;
@@ -2794,7 +2794,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:15>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:18>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_8 = ___0_other;
 		NullCheck(L_8);
 		String_t* L_9;
@@ -2807,7 +2807,7 @@ IL_0026:
 
 IL_0046:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:17>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:20>
 		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_11 = ___0_other;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
@@ -2818,7 +2818,7 @@ IL_0046:
 
 IL_0052:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:18>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:21>
 		return;
 	}
 }
@@ -2832,10 +2832,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KillPlane__ctor_m525ED06A9BA2DF9CF57FC58
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:6>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:8>
 		__this->___requiredTag = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___requiredTag), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:7>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/KillPlane.cs:9>
 		__this->___logDestruction = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -2850,22 +2850,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KillPlane__ctor_m525ED06A9BA2DF9CF57FC58
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 80214
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable_Start_mD0D334A190D1E383556D490FF56E025EC9174A5F (MakeBounceable_t0EB6279CF6646E9EAE49C3C5A53D9D9B8F0F8176* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:9>
-		return;
-	}
-}
-// Method Definition Index: 80215
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable_Update_m17C99508A7129C8ABF9F2E007FD7F911890B6812 (MakeBounceable_t0EB6279CF6646E9EAE49C3C5A53D9D9B8F0F8176* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:15>
-		return;
-	}
-}
-// Method Definition Index: 80216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable_OnCollisionStay_mDA17870357FC4E7D9E5EB59A92FDDDF567013C15 (MakeBounceable_t0EB6279CF6646E9EAE49C3C5A53D9D9B8F0F8176* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_collision, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2880,7 +2864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable_OnCollisionStay_mDA178703
 	float V_1 = 0.0f;
 	float V_2 = 0.0f;
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:19>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:8>
 		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_0 = ___0_collision;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
@@ -2892,13 +2876,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable_OnCollisionStay_mDA178703
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral72B1ED649D90702A65E9EC79507977CDDD115641, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:21>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:10>
 		V_0 = (0.0f);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:22>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:11>
 		V_1 = (0.0f);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:23>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:12>
 		V_2 = (0.0799999982f);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:26>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:15>
 		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_4 = ___0_collision;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -2916,11 +2900,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable_OnCollisionStay_mDA178703
 		L_11 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_10, (4.0f), NULL);
 		NullCheck(L_6);
 		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_6, L_11, 1, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:27>
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/MakeBounceable.cs:16>
 		return;
 	}
 }
-// Method Definition Index: 80217
+// Method Definition Index: 80215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable__ctor_m41963C524C960AABF130FAD7A1F54018FB880912 (MakeBounceable_t0EB6279CF6646E9EAE49C3C5A53D9D9B8F0F8176* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2937,7 +2921,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeBounceable__ctor_m41963C524C960AABF1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80218
+// Method Definition Index: 80216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_Start_m113F392674AB08A26877728CD36F06332E869080 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2976,7 +2960,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 80219
+// Method Definition Index: 80217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_UpdateCount_m9C4E383E3A6ED03533F3116481BCFC1F3E5F6A93 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, int32_t ___0_type, int32_t ___1_count, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3122,7 +3106,7 @@ IL_00a8:
 		return;
 	}
 }
-// Method Definition Index: 80220
+// Method Definition Index: 80218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager_NotifyBinFull_m61FC1FE7CEA23741147B1380F36740266F352F68 (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, int32_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3256,7 +3240,7 @@ IL_0075:
 		return;
 	}
 }
-// Method Definition Index: 80221
+// Method Definition Index: 80219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager__ctor_mC9DC2B8984E76F424E73C1860AD4BD3DEBF6573F (UIManager_t16825A2483574F37D7D47AB939A6FA639678B1F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -3278,7 +3262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIManager__ctor_mC9DC2B8984E76F424E73C18
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80222
+// Method Definition Index: 80220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3295,7 +3279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80223
+// Method Definition Index: 80221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3312,7 +3296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 80224
+// Method Definition Index: 80222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3357,7 +3341,7 @@ IL_005e:
 		return L_7;
 	}
 }
-// Method Definition Index: 80225
+// Method Definition Index: 80223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

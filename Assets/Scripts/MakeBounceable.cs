@@ -2,18 +2,7 @@ using UnityEngine;
 
 public class MakeBounceable : MonoBehaviour
 {
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    //  This is our conveypr belt
     void OnCollisionStay(Collision collision)
     {
         Debug.Log("Collision detected with " + collision.gameObject.name);
