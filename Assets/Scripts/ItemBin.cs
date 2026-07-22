@@ -35,6 +35,7 @@ public class ItemBin : MonoBehaviour
         if (currentCount >= capacity)
         {
             Debug.Log($"[ItemBin] Correct type but bin already full ({currentCount}/{capacity})");
+            Destroy(other.gameObject);
             return;
         }
 

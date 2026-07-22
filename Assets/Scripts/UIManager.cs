@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     private bool magentaFull = false;
     private bool yellowFull = false;
 
+    // sets our job done message to false on start 
     private void Start()
     {
         if (jobDoneText != null) jobDoneText.gameObject.SetActive(false);
@@ -34,7 +35,7 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // When all 3 bins are full, displays Job Done message
+    // When all 3 bins are full, receives the a displays Job Done message
     public void NotifyBinFull(ItemType type)
     {
         switch (type)

@@ -1869,7 +1869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ItemBin_OnTriggerEnter_m073EC37057FE0481
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
 		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:23>
-		goto IL_0177;
+		goto IL_0183;
 	}
 
 IL_0034:
@@ -1908,7 +1908,7 @@ IL_0034:
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_22, NULL);
 		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:31>
-		goto IL_0177;
+		goto IL_0183;
 	}
 
 IL_0081:
@@ -1920,7 +1920,7 @@ IL_0081:
 		bool L_25 = V_3;
 		if (!L_25)
 		{
-			goto IL_00c2;
+			goto IL_00ce;
 		}
 	}
 	{
@@ -1936,106 +1936,113 @@ IL_0081:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_32, NULL);
 		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:38>
-		goto IL_0177;
-	}
-
-IL_00c2:
-	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:42>
-		int32_t L_33 = __this->___currentCount;
-		__this->___currentCount = ((int32_t)il2cpp_codegen_add(L_33, 1));
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:43>
-		int32_t L_34 = __this->___acceptedItem;
-		int32_t L_35 = L_34;
-		RuntimeObject* L_36 = Box(ItemType_t6FE5395FE977F1E86E30795996C94D6D2C2C6876_il2cpp_TypeInfo_var, &L_35);
-		int32_t L_37 = __this->___currentCount;
-		int32_t L_38 = L_37;
-		RuntimeObject* L_39 = Box(il2cpp_defaults.int32_class, &L_38);
-		int32_t L_40 = __this->___capacity;
-		int32_t L_41 = L_40;
-		RuntimeObject* L_42 = Box(il2cpp_defaults.int32_class, &L_41);
-		String_t* L_43;
-		L_43 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral4B355DE4F41C81ECC8E28886FDBB8388DF499556, L_36, L_39, L_42, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_43, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:44>
-		ItemTypeIntEvent_tF602749F56B0FB85B60A470F846413D76F5655B3* L_44 = __this->___OnCountChanged;
-		ItemTypeIntEvent_tF602749F56B0FB85B60A470F846413D76F5655B3* L_45 = L_44;
-		if (L_45)
-		{
-			G_B8_0 = L_45;
-			goto IL_010d;
-		}
-		G_B7_0 = L_45;
-	}
-	{
-		goto IL_011f;
-	}
-
-IL_010d:
-	{
-		int32_t L_46 = __this->___acceptedItem;
-		int32_t L_47 = __this->___currentCount;
-		NullCheck(G_B8_0);
-		UnityEvent_2_Invoke_m8F89A23E7BF1E94ACDC1BF54416748603044A8CD(G_B8_0, L_46, L_47, UnityEvent_2_Invoke_m8F89A23E7BF1E94ACDC1BF54416748603044A8CD_RuntimeMethod_var);
-	}
-
-IL_011f:
-	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:45>
-		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_48 = ___0_other;
-		NullCheck(L_48);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49;
-		L_49 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_48, NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_33 = ___0_other;
+		NullCheck(L_33);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
+		L_34 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_33, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_49, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:48>
-		int32_t L_50 = __this->___currentCount;
-		int32_t L_51 = __this->___capacity;
-		V_4 = (bool)((((int32_t)((((int32_t)L_50) < ((int32_t)L_51))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_52 = V_4;
-		if (!L_52)
-		{
-			goto IL_0177;
-		}
-	}
-	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:50>
-		int32_t L_53 = __this->___acceptedItem;
-		int32_t L_54 = L_53;
-		RuntimeObject* L_55 = Box(ItemType_t6FE5395FE977F1E86E30795996C94D6D2C2C6876_il2cpp_TypeInfo_var, &L_54);
-		String_t* L_56;
-		L_56 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9567C5218B8F571EF43D4FE4F26BE726140EAB32, L_55, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_56, NULL);
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:51>
-		ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* L_57 = __this->___OnBinFull;
-		ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* L_58 = L_57;
-		if (L_58)
-		{
-			G_B12_0 = L_58;
-			goto IL_016a;
-		}
-		G_B11_0 = L_58;
-	}
-	{
-		goto IL_0176;
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_34, NULL);
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:39>
+		goto IL_0183;
 	}
 
-IL_016a:
+IL_00ce:
 	{
-		int32_t L_59 = __this->___acceptedItem;
-		NullCheck(G_B12_0);
-		UnityEvent_1_Invoke_mE8FD20189DC8089D6062647295D21519E61A5C78(G_B12_0, L_59, UnityEvent_1_Invoke_mE8FD20189DC8089D6062647295D21519E61A5C78_RuntimeMethod_var);
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:43>
+		int32_t L_35 = __this->___currentCount;
+		__this->___currentCount = ((int32_t)il2cpp_codegen_add(L_35, 1));
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:44>
+		int32_t L_36 = __this->___acceptedItem;
+		int32_t L_37 = L_36;
+		RuntimeObject* L_38 = Box(ItemType_t6FE5395FE977F1E86E30795996C94D6D2C2C6876_il2cpp_TypeInfo_var, &L_37);
+		int32_t L_39 = __this->___currentCount;
+		int32_t L_40 = L_39;
+		RuntimeObject* L_41 = Box(il2cpp_defaults.int32_class, &L_40);
+		int32_t L_42 = __this->___capacity;
+		int32_t L_43 = L_42;
+		RuntimeObject* L_44 = Box(il2cpp_defaults.int32_class, &L_43);
+		String_t* L_45;
+		L_45 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral4B355DE4F41C81ECC8E28886FDBB8388DF499556, L_38, L_41, L_44, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_45, NULL);
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:45>
+		ItemTypeIntEvent_tF602749F56B0FB85B60A470F846413D76F5655B3* L_46 = __this->___OnCountChanged;
+		ItemTypeIntEvent_tF602749F56B0FB85B60A470F846413D76F5655B3* L_47 = L_46;
+		if (L_47)
+		{
+			G_B8_0 = L_47;
+			goto IL_0119;
+		}
+		G_B7_0 = L_47;
+	}
+	{
+		goto IL_012b;
+	}
+
+IL_0119:
+	{
+		int32_t L_48 = __this->___acceptedItem;
+		int32_t L_49 = __this->___currentCount;
+		NullCheck(G_B8_0);
+		UnityEvent_2_Invoke_m8F89A23E7BF1E94ACDC1BF54416748603044A8CD(G_B8_0, L_48, L_49, UnityEvent_2_Invoke_m8F89A23E7BF1E94ACDC1BF54416748603044A8CD_RuntimeMethod_var);
+	}
+
+IL_012b:
+	{
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:46>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_50 = ___0_other;
+		NullCheck(L_50);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_51;
+		L_51 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_50, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_51, NULL);
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:49>
+		int32_t L_52 = __this->___currentCount;
+		int32_t L_53 = __this->___capacity;
+		V_4 = (bool)((((int32_t)((((int32_t)L_52) < ((int32_t)L_53))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_54 = V_4;
+		if (!L_54)
+		{
+			goto IL_0183;
+		}
+	}
+	{
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:51>
+		int32_t L_55 = __this->___acceptedItem;
+		int32_t L_56 = L_55;
+		RuntimeObject* L_57 = Box(ItemType_t6FE5395FE977F1E86E30795996C94D6D2C2C6876_il2cpp_TypeInfo_var, &L_56);
+		String_t* L_58;
+		L_58 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9567C5218B8F571EF43D4FE4F26BE726140EAB32, L_57, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_58, NULL);
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:52>
+		ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* L_59 = __this->___OnBinFull;
+		ItemTypeEvent_t86B54AAD1AB1E7FFA46819DB753851526F63A8E5* L_60 = L_59;
+		if (L_60)
+		{
+			G_B12_0 = L_60;
+			goto IL_0176;
+		}
+		G_B11_0 = L_60;
+	}
+	{
+		goto IL_0182;
 	}
 
 IL_0176:
 	{
+		int32_t L_61 = __this->___acceptedItem;
+		NullCheck(G_B12_0);
+		UnityEvent_1_Invoke_mE8FD20189DC8089D6062647295D21519E61A5C78(G_B12_0, L_61, UnityEvent_1_Invoke_mE8FD20189DC8089D6062647295D21519E61A5C78_RuntimeMethod_var);
 	}
 
-IL_0177:
+IL_0182:
 	{
-		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:53>
+	}
+
+IL_0183:
+	{
+		//<source_info:C:/Users/Ryan/Documents/SIT/SIT283/SIT283 Week 1/Assets/Scripts/ItemBin.cs:54>
 		return;
 	}
 }
